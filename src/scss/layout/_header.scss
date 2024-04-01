@@ -1,0 +1,51 @@
+.header{
+    height: 100vh;
+    background-image:url("../images/Copia de cover.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    &__menu{
+        width: 3.7rem;
+        height: 3.7rem;
+        position: absolute;
+        top:0;
+        left:0;
+    }
+    &__title{
+        color: $white;
+        position: absolute;
+        top:0;
+        transform: translateY(30.3rem);
+        font-family: $titleFont;
+        font-size: 4.2rem;
+        text-align: center;
+        max-width: 730px;
+        &::first-line {
+            word-spacing: 100vw;
+          }
+    }
+    &__title--text{
+        color: $white;
+        color: $white;
+        position: absolute;
+        top:0;
+        transform: translateY(42.3rem);
+        line-height: 1.9rem;
+        font-family: $mainFont;
+        font-size: 1.5rem;
+        font-weight: 500;
+    }&__image{
+        position: absolute;
+        top:0;
+        transform: translateY(47.2rem);
+        width: 3.79rem;
+        height: 3.79rem;
+
+    }
+} 
+
+
