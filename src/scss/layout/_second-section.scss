@@ -1,0 +1,52 @@
+.second__section{
+    padding: $centralColumnPadding;
+    display: flex;
+    flex-direction: column;
+    background-color: $secondSectionBg;
+    @media (min-width:768px){
+        padding: 1.5rem 2.5rem;
+      
+    }
+    &--sub{
+        font-family: $mainFont;
+        font-size: 1.4rem;
+        line-height: 2.14;
+        color: $subtitleColor;
+        padding-top: 6.19rem;
+        @media (min-width:768px){
+            padding-top: 3.7rem;
+        }
+    }
+    &--title{
+        font-family: $titleFont;
+        font-size: 2.4rem;
+        line-height: 1.25;
+        color: $titleColor;
+    }
+    &--text{
+        font-family: $mainFont;
+        font-size: 1.8rem;
+        padding-top: 2rem;
+        line-height: 1.67;
+        color:$textColor;
+    }
+    &--link{
+        text-decoration: none;
+        color: $decorationColor;
+        font-size: 2rem;
+        font-family: $mainFont;
+        line-height: 4.45rem;
+        text-align: center;
+        width: 7.6rem;
+        height: 4.5rem;
+        border: solid 0.25rem $decorationColor;
+        border-radius: 2.25rem;
+        margin-top: 2.6rem;
+        margin-bottom: 4.5rem;
+        transition: transform 0.3s ease;
+        &:hover{
+            transform:scale(1.2);
+            background-color: $softDecColor;
+        }
+    }
+}
