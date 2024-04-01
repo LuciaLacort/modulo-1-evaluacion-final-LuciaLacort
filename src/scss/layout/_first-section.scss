@@ -8,6 +8,13 @@
     flex-direction: column;
     align-items: center;
     position: relative;
+    @media (min-width:768px){
+        height: 76.8rem;
+        padding:0 3.8rem;
+    }
+    @media (min-width:768px){
+        height: 78.1rem;
+    }
 
     &--title{
         color: $white;
@@ -17,25 +24,54 @@
         font-family: $titleFont;
         font-size: 4.2rem;
         text-align: center;
+        line-height: 5.5rem;
         max-width: 730px;
         &::first-line {
             word-spacing: 100vw;
           }
+        @media (min-width:768px){
+            font-size: 8rem;
+            line-height: 10.6rem;
+            transform: translateY(38.4rem);
+        }
+        @media (min-width:1280px){
+            font-size: 10rem;
+            line-height: 13.2rem;
+        }
     }
     &--text{
         color: $white;
         position: absolute;
         top:0;
-        transform: translateY(42.3rem);
+        transform: translateY(42.03rem);
         line-height: 1.9rem;
         font-family: $mainFont;
-        font-size: 1.5rem;
+        font-size: 1.6rem;
         font-weight: 500;
+        @media (min-width:768px){
+            font-size: 2.4rem;
+            width: 34rem;
+            text-align: center;
+            line-height: 2.8rem;
+            transform: translateY(61.6rem);
+        }
+        @media (min-width:1280px){
+            width: 73rem;
+            transform: translateY(64.8rem);
+         
+        }
     }
 
     .scroll{
         position: relative;
         transform: translateY(47.2rem);
+        @media (min-width:768px){
+            font-size: 2.4rem;
+            transform: translateY(67.8rem);
+        }
+        @media (min-width:1280px){
+            transform: translateY(71rem);
+        }
 
     }
 
@@ -49,6 +85,16 @@
         padding-bottom: 1.26rem;
         border-radius: 50%;
         transition: transform 0.3s ease;
+        @media (min-width:768px){
+            width: 4.25rem;
+            height: 4.5rem;
+       
+        }
+        @media (min-width:1280px){
+            width: 4.5rem;
+            height: 4.5rem;
+       
+        }
         &:hover{
             transform:scale(1.3);
             background-color: $softDecColor;

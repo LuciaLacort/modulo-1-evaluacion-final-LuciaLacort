@@ -4,24 +4,37 @@
     flex-direction: column;
     background-color: $secondSectionBg;
     @media (min-width:768px){
-        padding: 1.5rem 2.5rem;
-      
+        padding: 0 3.9rem;
+        height: 33rem;
+    }
+    @media (min-width:1280px){
+        padding:0 27.5rem;
     }
     &--sub{
         font-family: $mainFont;
         font-size: 1.4rem;
         line-height: 2.14;
         color: $subtitleColor;
-        padding-top: 6.19rem;
+        padding-top: 6.39rem;
+
         @media (min-width:768px){
             padding-top: 3.7rem;
+            line-height: 3rem;
         }
+        @media (min-width:1280px){
+            font-size: 1.6rem;
+        }
+        
     }
     &--title{
         font-family: $titleFont;
         font-size: 2.4rem;
         line-height: 1.25;
         color: $titleColor;
+        @media (min-width:768px){
+            font-size: 2.6rem;
+            line-height: 4.5rem;
+        }
     }
     &--text{
         font-family: $mainFont;
@@ -29,21 +42,32 @@
         padding-top: 2rem;
         line-height: 1.67;
         color:$textColor;
+        @media (min-width:768px){
+            line-height: 3rem;
+        }
+        @media (min-width:1280px){
+            font-size: 2rem;
+        }
+
     }
     &--link{
         text-decoration: none;
         color: $decorationColor;
         font-size: 2rem;
         font-family: $mainFont;
-        line-height: 4.45rem;
+        line-height: 4.5rem;
         text-align: center;
         width: 7.6rem;
         height: 4.5rem;
-        border: solid 0.25rem $decorationColor;
+        border: solid 0.2rem $decorationColor;
         border-radius: 2.25rem;
         margin-top: 2.6rem;
-        margin-bottom: 4.5rem;
+        margin-bottom: 5rem;
         transition: transform 0.3s ease;
+        @media (min-width:1280px){
+            width: 16rem;
+            margin-bottom: 6rem;
+        }
         &:hover{
             transform:scale(1.2);
             background-color: $softDecColor;

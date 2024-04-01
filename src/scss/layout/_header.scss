@@ -9,7 +9,18 @@
     padding-left: 1rem;
     padding-right: 1.18rem;
     padding-top: 1.23rem;
-
+    @media (min-width:768px){
+        width: 4.16rem;
+        height: 4.4rem;
+        padding-top: 1.4rem;
+        padding-left: 1.2rem;
+    }
+    @media (min-width:1280px){
+        width: 4.4rem;
+        height: 4.4rem;
+        padding-top: 1.5rem;
+        padding-left: 1.3rem;
+    }
     &:hover{
         background-color: $subtitleColor;
     }
