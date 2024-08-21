@@ -1,11 +1,10 @@
-# Módulo 1, evaluación final.
+# Static info website
 
-## Lucía Lacort Lozano, promoción Xia.
+A simple website developed to provide information.
 
-En este repositorio se encuentra el ejercicio de evaluación final del módulo 1 del bootcamp de Programación Web full time.
+## 🛠 Tools
 
-Esta página web se ha maquetado en base a un modelo dado a través de Zeplin del que se han extraído las medidas, fuentes y colores.
+[![My Skills](https://skillicons.dev/icons?i=html,css,git)](https://skillicons.dev)
 
-Para completar la maquetación se han aplicado los conocimientos adquiridos a lo largo del Módulo 1.
 
 
